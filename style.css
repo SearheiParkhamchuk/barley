@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.barleyBreak_wrapper{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: auto;
+}
+
+.barleyBreak{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	max-height: 600px;
+	max-width: 600px;
+	
+}
+
+.barleyBreak table{
+	border: 2px solid #000;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.barleyBreak table td{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+	background-color: #fff;
+	transition: background-color .5s ease;
+	font-size: 35px;
+	text-align: center;
+}
+
+.barleyBreak table td:hover{
+	cursor: pointer;
+	background-color: #888;
+}
+

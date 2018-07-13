@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>barley-break</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<div class="barleyBreak_wrapper">
+		<div class="formForSize">
+			<table>
+				<tr>
+					<td><label for="rows">Количество строк</label></td>
+					<td><input type="text" id="rows"></td>
+				</tr>
+				<tr>
+					<td><label for="rows">Количество столбцов</label></td>
+					<td><input type="text" id="columns"></td>
+				</tr>
+				<tr>
+					<td><button onclick="formForChooseSize()" name="addGrid">Добавить поле/Начать заново</button></td>
+				<tr>
+			</table>
+		</div>
+		<div class="steps">
+			<p>Время</p>
+			<div class="timer">00:00:00</div>
+			<p>Ходов</p>
+			<div class="stepsCount"></div>
+		</div>
+		<div class="barleyBreak">
+			
+		</div>
+	</div>
+	<script src="scripts.js" ></script>
+	<script src="timer.js" ></script>
+</body>
+</html>
